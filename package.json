@@ -1,0 +1,13 @@
+{
+  "name": "data-center-timeline-iframe",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "export:data": "node scripts/export-timeline.mjs",
+    "serve": "python -m http.server 4173"
+  },
+  "devDependencies": {
+    "xlsx": "^0.18.5"
+  }
+}
