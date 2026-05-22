@@ -1,0 +1,624 @@
+{
+  "generatedAt": "2026-05-22T00:14:02.250Z",
+  "sourceWorkbook": "Data Center Timeline updated 040626.xlsx",
+  "sourceSheet": "Timeline no graph",
+  "eventCount": 88,
+  "events": [
+    {
+      "id": "2024-05-06-mn-power-sale-agreement",
+      "date": "2024-05-06",
+      "milestone": "MN Power Sale agreement",
+      "height": -5,
+      "notes": "ALLETE enters into an agreement to be aquired by CPPIB and GIP - stafing this move would allow the company to achieve its carbon free electricity goals more efficiently by 2040 aided from easier access to private funding sources.  GIP was aquired by Blackrock on October 1st, 2024."
+    },
+    {
+      "id": "2024-05-21-nda-signed",
+      "date": "2024-05-21",
+      "milestone": "NDA signed",
+      "height": 2,
+      "notes": "Joe Wicklund (Hermantown Communications and Community Engagement Director) and John Mulder (Hermantown City Administrator) sign an NDA with Mortenson Development, INC. on behalf of the \"City of Hermantown.\""
+    },
+    {
+      "id": "2024-07-08-project-loon-discussion",
+      "date": "2024-07-08",
+      "milestone": "Project Loon Discussion",
+      "height": null,
+      "notes": "In the Data Request Documents received by MCEA, a loose document with no originator was found titled \"Project Loon Discussion 7/8/2024.\"  This documents references multiple different bullet points including: application deadlines material plans, Wetland Delineation (with an added question if wetland credits are to be considered), CIDP Applications (Commercial Industrial Development Permit Application) requirements (Site Plan, Grading Plan, Utility Plan, SWPPP Plan [Stowmwater], and Building elevations), and SUP (Special Use Permit).  It also lists dates of future P&Z Meeting (Planning and Zoning). There is a note about it being reviewed \"at Technical Evaluation Panel (TEP) on 4th Monday.\""
+    },
+    {
+      "id": "2024-07-11-last-steering-comm-mtg",
+      "date": "2024-07-11",
+      "milestone": "Last Steering Comm Mtg",
+      "height": 5,
+      "notes": "Hermantown Resident Jonathan Thornton reports in an email that this is the date of the last steering committee meeting for the Hermantown 2045 Comprehensive Plan. On 8/8/22, Eric Johnson (Hermantown) invited Thornton to be part of a steering committee created to help with the details of the City of Hermantown's 2045 Comprehensive Plan. The Minnesota Department of Health website defines a Comprehensive Plan as \"one of the primary tools used by local governments to achieve the communnity vision, regulate land uses and guide future investments.... Plans also include a future landuse map which visualizes the contec of the plan and shows what type of land uses are desired across the community on a parcel-by-parcel basis.\" Thornton reports that prior Steering Committee Meetings were conducted on 9/27/22, 6/1/23, 7/19/23, 4/9/24, and 5/16/24. The last meeting was not expected to be the last and Thornton quotes an email he received from Eric Johnson on 6/10/24 stating, \"We'll use this to determine our next meeting date and then discuss future dates at that meeting.\"  Thornton states that the Steering Committee was \"never contacted again after July 11, 2024 Never invited to the 'Community Open House,' never invited to review the report before it went in fron of the Planning Commission, never even a simple email message. On top of all that, they left my name and the other committee member names on the report when presenting the changed report to the Planning and Zoning Commisson and then the City Council.\"  Thornton states what was presented had been changed by City Staff and did not reflect what the Steering Committee advocated for in the Adolph area - keeping it rural and agricultural."
+    },
+    {
+      "id": "2024-09-02-new-director",
+      "date": "2024-09-02",
+      "milestone": "New Director",
+      "height": -3,
+      "notes": "Chad Ronchetti, former Economic Development Director for the City of Duluth, starts his position as the Econmic Development Director for the City of Hermantown."
+    },
+    {
+      "id": "2024-09-09-water-testing",
+      "date": "2024-09-09",
+      "milestone": "Water Testing",
+      "height": -10,
+      "notes": "Chad Ronchetti (Hermantown) emails David Bolf (NCE), Joe Wicklund (Hermantown), and John Mulder (Hermantown) regarding Water/Waste Water. He states, \"They are still evaluating the water-cooled option… We are getting them access to Fire Hall #2 for water testing and to a hydrant for flow testing.\"  He continues, \"when they proposed an air-colled system, it fizzled out.\""
+    },
+    {
+      "id": "2024-09-09-deed",
+      "date": "2024-09-09",
+      "milestone": "DEED",
+      "height": -15,
+      "notes": "Chad Ronchetti (Hermantown) emails Catalina Valencia (MN DEED) saying, \"We are working on a confidential project of significant scale here in Hermantown. … Would it be possible to get on a Teams call, brief DEED on the project, and chat about your programs? I've given them a high level on what I think might be applicable...\"  DEED provides many services through the State of Minnesota, including grants. In a subsequent emai, an NDA is discussed between DEED and Mortenson. On October 11, 2024, Mortenson signs the NDA and passes it on for signature from Catalina and Chet from DEED."
+    },
+    {
+      "id": "2024-09-13-sewer-water-kh",
+      "date": "2024-09-13",
+      "milestone": "Sewer/Water KH",
+      "height": -20,
+      "notes": "Jared Jones (Kimley-Horn) emails Trish Crego (Hermantown) regarding a \"future large land development project in Hermantown.\"  He asks for information regarding local water and wastewater treatment near Midway Road and US Highway 2.  Trish forwards this message to Chad Ronchetti (Hermantown) who agrees to be Point of Contact for the City of Hermantown.  Chad updates Jared with what he is working on, \"working to complete the full water and wastewater RFIs... Some of the information requested in the RFI can only be answered robustly by the Western Lake Superior Sanitary District [WLSSD]... but per Chris Bates' [Mortenson] instruction, I am waiting on the expected demands from a second phase prior to contacting WLSSD.\""
+    },
+    {
+      "id": "2024-09-13-sewer-water-duluth",
+      "date": "2024-09-13",
+      "milestone": "Sewer/Water Duluth",
+      "height": null,
+      "notes": "Chad Ronchetti (Hermantown) emails Howard Smith and Tricia Hobbs (Duluth) with questions regarding the water capacity capabilities of the City of Duluth, who provides water to the City of Hermantown and surrounding areas.  Questions include topics like Wastewater Treatment Plant services, available capacity (max/average day), minimum/average/peak flows, future upgrades in the next 5-10 years, pretreatment discharge standards, water quality and discharge (St. Loius River), if neighbors (residents, businesses, etc) would be concerned with a light ndustrial user discharging in the area, alternate discharge areas for non-contact cooling water, and water reuse."
+    },
+    {
+      "id": "2024-09-18-mayor-boucher-informed",
+      "date": "2024-09-18",
+      "milestone": "Mayor Boucher Informed",
+      "height": 5,
+      "notes": "Email from John Mulder to Chad Ronchetti states that he has informed Mayor Wayne Boucher about \"data center next to MN Power substtion\", whose response was \"wow.\"  He notes that Minnesota Power introduced the project to Hermantown, that people in the County and Duluth are aware of this, and that the building company has reached out to Jordan Urshan and Kerry Juntunen (land owners in the SW corner of Hermantown). He also assured the Mayor that \"we did make sure that this area would be planned for Business Light Manufacturing.\" He is refering to the 2045 Hermantown Comprehensive Plan."
+    },
+    {
+      "id": "2024-10-03-water-test-complete",
+      "date": "2024-10-03",
+      "milestone": "Water Test Complete",
+      "height": -17,
+      "notes": "Zachary Graves (Hermantown Fire Chief) emails Chad Ronchetti and confirms that water testing by Kimley-Horn has been completed (Company doing testing was Pace Labs). He continues, \"Talking with the tech that came and did the test this is going to be monthly for one year.\""
+    },
+    {
+      "id": "2024-10-04-water-sewer",
+      "date": "2024-10-04",
+      "milestone": "Water/Sewer",
+      "height": -13,
+      "notes": "Chad Ronchetti (Hermantown) suggests attaching a request to increase water and sewer to the SW corner of Hermantown with a similar ask from Sappi (a paper and pulp mill in Cloquet, MN).  Attached is an email from Arik Forsman (Minnesota Power Manager of Strategic Accounts and Duluth City Councilor) addressing a water line owned by the City of Cloquet that burst August of 2024. Chad suggests, \"Maybe we, use the same pipe, attach our ask to Cloquest and lobby together. Could be powerful.\"  Arik agrees. Chad asks \"Thoughts about setting a meeting to chat about steps to making this happen?\"  Arik responds, \"I would take Grant's lead on that.\""
+    },
+    {
+      "id": "2024-10-14-water-modeling",
+      "date": "2024-10-14",
+      "milestone": "Water Modeling",
+      "height": -7,
+      "notes": "Chad Ronchetti (Hermantown) emails Brian Wurdeman, Mike Brandt, Brent Nasset, and Kate Schumann (all Kimley-Horn) regarding meeting with a water modeling consultant. Chad requests information regarding, a. Typical daily demand expected, b. Typical hourly use (what time of day does water get used, and how much etc), c. Peak demand - what is expected for total deman on a peak day, and how often would it occur, d. Total annual water use expected.\"  Brian replies, \"We're still working with the end user to get the additional information to assist your team.\""
+    },
+    {
+      "id": "2024-10-15-water-fund-charge",
+      "date": "2024-10-15",
+      "milestone": "Water Fund Charge",
+      "height": -3,
+      "notes": "Chad Ronchetti (Hermantown) emails David Bolf (NCE) stating, \"We'll charge Loon stuff to the water fund: 1-494-400-601.\"  This is attached to the email with the subject line of \"RE: Project Look - Sewer and Water Availability RFI.\"  Prior emails were asking about flow rate from nearby hydrants and expected water use for the project."
+    },
+    {
+      "id": "2024-10-17-confirm-data-center",
+      "date": "2024-10-17",
+      "milestone": "Confirm Data Center",
+      "height": 10,
+      "notes": "Chris Bates (Mortenson Development Manager) confirmed over email to Catalina Valencia (DEED Minnesota) that \"yes this project is a data center use.\"  Catalina's email asked, \"Cound you confirm at this point whether the project is a data center? …Colleen focuses on data centers among other industries.\"  Included in this email is Chad Ronchetti (Hermantown)."
+    },
+    {
+      "id": "2024-10-21-nda-signed",
+      "date": "2024-10-21",
+      "milestone": "NDA signed",
+      "height": 2,
+      "notes": "Darren Jablonsky (St Loius County Economic Community Development Director) signs an NDA with Mortenson Development Inc. on behalf of Saint Loius County, Minnesota."
+    },
+    {
+      "id": "2024-10-23-nda-w-wlssd",
+      "date": "2024-10-23",
+      "milestone": "NDA w/ WLSSD",
+      "height": 5,
+      "notes": "Chris Bates (Development Manager for Mortenson Development Inc.) emails NDA to Chad Ronchetti (Hermantown Economic Development Director), Brandon Kohlts (WLSSD), and David Bolf (Northland Consulting Engineers) to be signed prior to 10/30/24 meeting of Project Loon Team.  This is in response to Chad Ronchetti's emailed request to have WLSSD in an NDA, stating \"The City of Hermantown is under one now. You two can coordinate details there.\" Brandon Kohlts emails signed NDA on 10/25/24."
+    },
+    {
+      "id": "2024-10-23-water-use",
+      "date": "2024-10-23",
+      "milestone": "Water Use",
+      "height": -25,
+      "notes": "Brian Wurdeman (Kimley-Horn) repondes to Chad Ronchetti's (Hermantown) email regarding water usage.  He states, \"The team is still in the process of studying the site and projest so it's a bit of a moving target to provide detialed estimates at the graularity requested, however we'd offer the following preliminary scale figures which hopefully can offer some assistance with project planning:  - Domestic usage for the site would be around 50k gallons per day, with flow profiles typical of commercial development.  - Process water usage will depend on the projects the City is able to undertake to supply water. There is interest in water solutions up to a 15-20mgd [million gallons per day]range, as a max capacity condition, in a future buildout scenario. ...\""
+    },
+    {
+      "id": "2024-10-30-project-loon-presentation",
+      "date": "2024-10-30",
+      "milestone": "Project Loon Presentation",
+      "height": 15,
+      "notes": "Chad Ronchetti delivers a presentation to the Project Loon Team at ALLETE headquarters.  This includes a slide about zoning changes that will need to take place for this project to move forward.  Reports he hopes to ratify and adopt the new Comp Plan by December 2024. Notes \"Rezone to BLM necessary, updates to BLM to allow data centers required, changes to performance standards for hours of opperation necessary.\" Also included in the outline is a section on \"Incentives  1. TaxIncrement District (TID)  2. Tax Abatement Agreement (TAA)  3. Innovative Business Development Public Infrastructure (BDPI)\""
+    },
+    {
+      "id": "2024-11-15-tif",
+      "date": "2024-11-15",
+      "milestone": "TIF",
+      "height": 3,
+      "notes": "Chad Ronchetti (Hermantown) emails Todd Hagen (Elhers) stating, \"As you and I chatted about before, we are working on a potential project that is very large is[in] size that would, in my estimation, qualify for an Economic Development TIF District.\""
+    },
+    {
+      "id": "2024-11-19-project-loon-inducement",
+      "date": "2024-11-19",
+      "milestone": "Project Loon Inducement",
+      "height": 20,
+      "notes": "Chad Ronchetti (Hermantown) emails John Mulder, Eric Johnson, and Joe Wicklund (all Hermantown) and David Bolf (Northland Consulting) regarding an Inducement Agreement in place for costs of Project Loon.  He writes, \"John & Joe - Once we enter into actual negotiations with project Loon, we will need to let the Concil know what we are up to because this agreement will not go to Council for approval.\""
+    },
+    {
+      "id": "2024-11-20-costs-escrow",
+      "date": "2024-11-20",
+      "milestone": "Costs Escrow",
+      "height": 13,
+      "notes": "Chad Ronchetti (Hermantown) emails Chris Bates (Mortenson) about costs, stating, \"I am working on that escrow agreement. The agreement would cover more than just design. It would cover our costs associated with outside consultant work such as engineering, legal, financial (Ehlers), etc. ... Again, we would not charge for the City's administration costs (staff time, etc.), but as we are starting to incur somewhat significant costs (such as with water modeling.)\""
+    },
+    {
+      "id": "2024-11-25-tax-incentives",
+      "date": "2024-11-25",
+      "milestone": "Tax Incentives",
+      "height": 7,
+      "notes": "Chad Ronchetti (Hermantown) emails Darren Jablonsky (St. Louis County), regarding information on Data Center Sales Tax Incentives from the State of Minnesota.  Also states \"If you'd like more questions answered, the person assigned to this project from the data center team at DEED is: Catalina Valencia.\""
+    },
+    {
+      "id": "2024-11-26-nda-signed",
+      "date": "2024-11-26",
+      "milestone": "NDA signed",
+      "height": null,
+      "notes": "Keith Musolf (St Louis County Commissioner) signs an \"Agreement Concerning Mutual Non-Disclosure Agreement\" on behalf of St. Lous County with Mortenson Development Inc. This MNDA states confidential information cannot be shared with anyone who has not signed a similar NDA."
+    },
+    {
+      "id": "2024-11-26-loon-escrow",
+      "date": "2024-11-26",
+      "milestone": "Loon Escrow",
+      "height": 5,
+      "notes": "David Bolf (NCE) emails Chad Ronchetti (Hermantown) with a breakdown of the engineering costs proposed in the escrow agreement. He states \"... my best estimate of breaking this down of the $100K:  $25,000SEH Water Modeling, $10,000 NCE to Date, $65,000 Further Preliminary Engineering including Feasibility Study,prelim plans, meetings with Duluth, SLC and WLLSSD.\""
+    },
+    {
+      "id": "2024-12-03-zoning-language",
+      "date": "2024-12-03",
+      "milestone": "Zoning Language",
+      "height": null,
+      "notes": "Chris Bates (Mortenson) emails Chad Ronchetti (Hermantown) and Dan Lessor (Mortenson) stating \"Please see attached zoning language as discussed. Will get back to you on the AUAR timing.\"  The attachment reads \"\"20241204 - Suggested City of Hermantown Code Amendment Language\" - Communication services means businesses, facilities or establishments used primarily to  house or operate networked computers and data and transaction processing equipment and support equipment, including, without limitation, power and cooling equipment used to provide digital storage, data, and transaction processing services, including all facilities for ancillary office, administrative, utility services and accessory uses involved in or related to any services or activities described in this category, whether taking place in the same or appurtenant buildings, utility facilities or structures, including without limitation electrical substations.\""
+    },
+    {
+      "id": "2024-12-03-auar-services",
+      "date": "2024-12-03",
+      "milestone": "AUAR services",
+      "height": -3,
+      "notes": "Eric Johnson (Hermantown) emails Kenneth Larsen and Travis Fristed of Braun Intertec Corporations.  He states, \"The City of Hermantown has been discussing a potential phased development of a large scale light industrial user for the SW corner of the City.  The project team for the developer is utlizing Kimley Horn (KH) for their engineering and environmental related work with KH currently working on an AUAR document.\"  Eric asks if Braun would be \"the City's agent in order to provide review and comment on the AUAR as well as assist the City on any required EQB [Environmental Quality Board]work associated with the AUAR document.\""
+    },
+    {
+      "id": "2024-12-05-auar",
+      "date": "2024-12-05",
+      "milestone": "AUAR",
+      "height": -5,
+      "notes": "Chad Ronchetti (Hermantown) emails Travis Fristed (Braun), Kenneth Larsen (Braun), and Eric Johnson (Hermantown) stating \"Looks like Kimley Horn did both the AUAR for Farmington and Rosemount.\"  Both of these projects have been revealed to be for data centers.  Farmington - 2.5 million square foot data center with NDA signed in October of 2023.  Rosemont - 715,000 square foot data center by Meta with NDA signed in July of 2022."
+    },
+    {
+      "id": "2024-12-05-hermantown-parcels",
+      "date": "2024-12-05",
+      "milestone": "Hermantown Parcels",
+      "height": -7,
+      "notes": "Eric Johnson (Hermantown) emails Chad Ronchetti (Hermantown) regarding parcels in the SW corner of Maple Grove Road and Ugstad Road.  He states, \"Expect a call from Greg Follmer on a project similar to Loon with similar NDA's on the following parcels… I spoke with him briefly about zoning and big picture utility use and sugested he contact you.\"  Chad responds \"That spot doesn't feel quite as right in terms of land use.\"  Eric agrees, \"We haveenvisioned that land as a residential development someday.\"  Chad emails Arik Forsman (MN Power and Duluth) asking \"s this Evolve maybe?\"  Arik responds with \"Interesting. That would be my best guess.\""
+    },
+    {
+      "id": "2024-12-09-nda",
+      "date": "2024-12-09",
+      "milestone": "NDA",
+      "height": 2,
+      "notes": "In an email to Eric Johnson (Hermantown), Travis Fristed (Braun), and Kenneth Larsen (Braun), Chad Ronchetti confirms that Braun Intertec Corporation is under NDA with Kimley Horn.  He also states that Braun \"is a 3rd party beneficiary to Mortenson Development\" and that they can speak freely. He continues, \"…they are expecting to have a draft AUAR order and scoping document to EQB [Environmental Quality Board] by 1/4/25. That has us as city review of draft AUAR and scoping document from 12/13-12/27.\""
+    },
+    {
+      "id": "2024-12-09-reimbursement-agreement",
+      "date": "2024-12-09",
+      "milestone": "Reimbursement Agreement",
+      "height": -10,
+      "notes": "Chris Bates (Mortenson) emails Chad Ronchetti (Hermantown) regarding a reimburment agreement between Mortenson and the City of Hermantown.  These emails continue through January 2025. On December 13, 2024, Chris Bates requests W9 for the City \"so that we can work on getting you setup in our payment system.\""
+    },
+    {
+      "id": "2024-12-18-grants",
+      "date": "2024-12-18",
+      "milestone": "Grants",
+      "height": -15,
+      "notes": "Chad Ronchetti (Hermantown) emails Josh Bergstad (ARDC) regarding grants, \"As part of our comprehensive plan update, we are looking at the potential of extending our Urban Service Boundary to the southwest corner of town.\"  Chad continues saying a limiting factor in development is water/sewer but does not think \"we would qualify for the Public Works grant...\"  He then asks, \"Let's just say for arguments sake that the City of Hermantown had a private partner in a technology sector willing to invest upwards of $1B in private investment and create several hundred jobs ($100+K), could an argument be made that the regional economic advantage of attrcting investment, creating jobs, and fostering economic resiliency and prosperity help us with economic diversity?\" Josh responds that the Economic Development Administration (EDA) \"allows for funding projects outside distressed areas if they provide a Substantial Direct Benefit to residents of distressed areas.\"  He states that Duluth qualify as a distressed area due to per capita income and high poverty status;  \"If Hermantown can demonstrate that its project benefits these residents, it could be eligible for funding.\"  Josh continues, stating that the closure of the federal prison could trigger the \"significant job loss criterion for communities under 100,000 in polulation.\"  He also states that \"EDA is likely to receive supplemental disaster response funding soon.  Hermantown qualifies, as St. Louis County was included in this summer's disaster declarations.\"  Josh offers more assistance if Chad would provide more information regarding the project. Chad responds, \"We do not have much public information on the water project yet, but for the sake of argument, let's say its about a $70M project.\""
+    },
+    {
+      "id": "2024-12-19-grants-cont",
+      "date": "2024-12-19",
+      "milestone": "Grants cont.",
+      "height": -17,
+      "notes": "Josh Bergstad (ARDC) returns Chad Ronchetti's email about grants saying, \"Construction jobs are not considered for EDA purposes. The job creation metrics EDA evaluates are direct and indirect permanent full-time equivalent (FTE) jobs generated by the projects beneficiaries (e.g., employers).\"  He continues, \"One potential concern is the project's scale. EDA grants typicall do not exceed $5 million, with an average award of around $1.5 million.\"  Josh advises Chad to condsider \"how to break te project into components that align with the EDA's investment parameters.  For example, focusing on the sanitary sewer might position the application more effectively.\"  Chad then emails David Bolf (NCE) asking \"how much just the sanitary portion of the Loon project is?\""
+    },
+    {
+      "id": "2024-12-19-sewer-price",
+      "date": "2024-12-19",
+      "milestone": "Sewer Price",
+      "height": -25,
+      "notes": "David Bolf (NCE) emails response to Chad Ronchetti's (Hermantown) question about the price of \"just the sanitary portion of the Loon project.\"  David states, \"$15M for 3 miles of sanitary sewer, forcemain and lift stations.\""
+    },
+    {
+      "id": "2024-12-31-grant-aid",
+      "date": "2024-12-31",
+      "milestone": "Grant Aid",
+      "height": -20,
+      "notes": "John Mulder (Hermantown) emails Chad Ronchetti and Joe Wicklund asking, \"I do not know much if anything about this grant program - but is this a possible source for our loon project?\"  He attaches a Press Release named \"Public Facility Authority Awards More Than $265 Million for Infrastructure Projects\"  This press release notes that Minnesota PFA awarded millions in loans and grants to wastewater and drinking water infrastructure.  Grants are funded through taxpayer funds."
+    },
+    {
+      "id": "2025-01-06-auar-proposal",
+      "date": "2025-01-06",
+      "milestone": "AUAR Proposal",
+      "height": 3,
+      "notes": "Braun Intertec Corporation presents a \"proposal to provide technical support services to the City of Hermantown under their duties as the Responsible Government Unit (RGU) for the proposed Project Loon in Hermantown.\"  The letter describes their understading of the project being a \"large data center complex on undeveloped lands in the southwest corner of the City of Hermantown.\"  It continues to describe the project triggering mandetory categories for environmental reviews and states an EAW scoping document will be available for City review in February of 2025. Their \"scope of work\" would not include review or assistance with \"Certain Large Specific Project Alternative Urban Areawide Review (AUAR).\"  That would come after the EAW scoping document."
+    },
+    {
+      "id": "2025-01-06-legistative-ask",
+      "date": "2025-01-06",
+      "milestone": "Legistative Ask",
+      "height": 7,
+      "notes": "Joe Wicklund, Hermantown Assistant City Administrator, asks John Mulder, Chad Ronchetti, and David Bolf to review slides for a legislative ask for the 2045 Comprehensive Plan.  He requests reference to \"Project Loon\" to be changed to \"Adolph\" as they \"are not talking about Project Loon tonight, just opportunity to develop in Adolph.\"  Slide includes note of \"$10 million in support of project\" and \"Meetings already held with Grant/Natalie.\""
+    },
+    {
+      "id": "2025-01-15-resident-email",
+      "date": "2025-01-15",
+      "milestone": "Resident email",
+      "height": 11,
+      "notes": "Hermantown Resident and Land Owner, Bob K, emails Wayne Boucher (Hermantown Mayor) and Eric Johnson (Community Development Director) asking for information on the \"Hermantown Project\" so that he can \"prepare for conversing intelligently about the offer to purchase my Hermantown Property with Christ Bates from Mortenson Construction Company.\"  He directly asks if it is a data center. He quotes from the city website \"We want our efforts in local government to be transparent, understandable, and always helping to serve and build our community. The engagement of our residents are what help make sure that is happening.\""
+    },
+    {
+      "id": "2025-01-16-resident-email-discussion",
+      "date": "2025-01-16",
+      "milestone": "Resident email discussion",
+      "height": 13,
+      "notes": "Community Development Director Eric Johnson emails Joe Wicklund, Chad Ronchetti, and Mayor Wayne Boucher about his response to Bob K.  His response says \"The only application the City has received in this area is for a wetland delineation, which was conducted in the fall of 2024.  There have been no further applications to the City, so there is not information to share.  I suggest you contact Chris Bates at Mortenson with these questions.\"  Boucher recommends \"leaving out the suggestion to contact Mortenson or their representative.\""
+    },
+    {
+      "id": "2025-01-16-load-requirement-email",
+      "date": "2025-01-16",
+      "milestone": "Load Requirement email",
+      "height": null,
+      "notes": "Brad Brzezinski (DEED) emails Chad Ronchetti (Hermantown) asking \"What were/is the peak load requirement for the project?\"  Ronchetti responds \"I don't know that. That's a Minnesota Power question.\""
+    },
+    {
+      "id": "2025-01-16-reimbursement-signed",
+      "date": "2025-01-16",
+      "milestone": "Reimbursement Signed",
+      "height": null,
+      "notes": "Reimbursment agreement is signed by Mortenson and the City of Hermantown for services related to utility upgrades. The developer has been engaged by a thrid-party client to \"provide development services in connection with the construction of a large light-industrial facility within the City of Hermantown.\"  \"Developerhereby agrees that it will pay all costs, including attorney's fees, zoning administrator fees, building official fees, fiscal consultant fees, engineering fees and other fees, costs and expences incurred by HEDA or City in connection with the Project.\""
+    },
+    {
+      "id": "2025-03-06-kh-zoning-comment",
+      "date": "2025-03-06",
+      "milestone": "KH Zoning Comment",
+      "height": null,
+      "notes": "Leila Bunge (Kimley-Horn) emails Eric Johnson (Hermantown) after a discussion with the Minnesota Environmental Quality Board, states \"…If the current comp plan does not meet those requirements[applicability requirements see sub part 1 A-D], then we need to wait until the zoning and comp plan update has been approved before we start the scoping comment period. We could even start the scoping comment period the same week/dy as the approval but it would need to occur first. I think it's the best approach to reduce any risk.\"  Bunge then asks Johnson for the \"New Comp Plan Graphics\" and states \"We are going to draft that section as it will already be approved at that point.\"  As of this date, the Planning and Zoning Commission had not received any changes to the 2045 Comprehensive Plan and the City Council had also not voted on the changes."
+    },
+    {
+      "id": "2025-03-12-nda-signed",
+      "date": "2025-03-12",
+      "milestone": "NDA signed",
+      "height": null,
+      "notes": "Annie Harala (St Loius County Commissions) signs an \"Agreement Concerning Mutual Non-Disclosure Agreement\" on behalf of St. Lous County with Mortenson Development Inc. This MNDA states confidential information cannot be shared with anyone who has not signed a similar NDA."
+    },
+    {
+      "id": "2025-03-13-nda-signed",
+      "date": "2025-03-13",
+      "milestone": "NDA signed",
+      "height": 2,
+      "notes": "Keith Nelson (St. Louis County Commisioner) and Darren Jablonsky (St. Louis County Economic and Community Development Director) signed an \"Agreement Concerning Mutual Non-Disclosure Agreement\" on behalf of St. Lous County with Mortenson Development Inc. This MNDA states confidential information cannot be shared with anyone who has not signed a similar NDA."
+    },
+    {
+      "id": "2025-03-18-planning-zoning-blm-zoning",
+      "date": "2025-03-18",
+      "milestone": "Planning/Zoning BLM Zoning",
+      "height": 5,
+      "notes": "Planning and Zoning Commission Meeting discussed Agenda Item 5B. \"Amendment to the City Ordinance regarding Communication Services Facilities\" applied by the City of Hermantown with a Staff Contact of Eric Johnson.  The background is described as \"The City of Hermantown has been working on an update to the Comprehensive Plan.  As part of that work, the City is proposing an expansion of the BLM, Business and Light Manufacturing zoning district and is proposing the following amendment...:\"  Proposal is to ADD IN the following language that was not included in current guiding document, \"\"Communication Services' means business, facilities or establishments used primarily to house or operate networked computers, data and transaction processing and related support equipment used to provide digital storage, data and transaction processing services, including all related utility and ancillary facilities and services such as [backup] power generation and cooling equipment office, administrative, and accessory uses involved in or related to any services or activities described in this category, including utility substations, whether taking place in the same or appurtenant utility facilities or structures.\"  This language is similar to that provided by Chris Bates (Mortenson) to Chad Ronchetti (Hermantown) on 12/3/24.  Agenda item approved unnanimously without public comment."
+    },
+    {
+      "id": "2025-03-18-planning-zoning-cont",
+      "date": "2025-03-18",
+      "milestone": "Planning/Zoning Cont.",
+      "height": null,
+      "notes": "Planning and Zoning Commission Meeting discussed Agenda Item 5C. \"Amendment to the City Ordinance regarding Communication Services Facilities\" applied by the City of Hermantown with a Staff Contact of Eric Johnson.  This proposed the following language to Chapter 5, Section 535 - Business and Light Manufacturing of the City Zoning Code, \"Add communication service facilities to the zoning district as permitted use with a special used permit.\"  Changes include location (200ft from the nearest residential structure, as measure in a straight line without regard to intervening structions or objects), hours of operation (may operate on a continual 24hrs a day, 7 days a week provided there is a perimeter screening of the facility with trees and shrubs), outdoor equipment (mechanical and generator equipment must not be located closer to a property line along public street right of way, principal building can with screening of trees and shrubs), and noise (must develop various sound mitigation strategies, such as noise walls, buffers, and mufflers).  Agenda item is approved unnanimously without public comment."
+    },
+    {
+      "id": "2025-03-18-planning-zoning-cont",
+      "date": "2025-03-18",
+      "milestone": "Planning/Zoning Cont.",
+      "height": null,
+      "notes": "Planning and Zoning Commission Meeting discussed Agenda Item 5D. SW Quadrant - Zoning Map Amendment applied by the City of Hermantown with Staff Contact of Eric Johnson.  This proposed that the Commission \"hold a public hearing regarding the rezoning of 14 parcels totaling 328-acres located in teh SW quadrant of Morris Thomas Road and Midway Road... from S-1, Suburban BLM, Business and Light Manufacturing.\"  Johnson said this was to be in line with updating the Comprehensive Plan, part of that work is to expand BLM into the Southwest area of the City to more accurately describe the nature of the parcels.  Three residents spoke with concerns regarding this change.  Meeting minutes state \"The main issues were, residents losing their homes, what kinds of business could you see in this area.\"  Agenda item was approved unnanimously."
+    },
+    {
+      "id": "2025-03-18-planning-zoning-cont",
+      "date": "2025-03-18",
+      "milestone": "Planning/Zoning Cont.",
+      "height": null,
+      "notes": "Planning and Zoning Commission Meeting discussed Agenda Item 5E \"A public hearing for the City of Hermantown's Draft Comprehenisve Plan Update. A presentation of the Draft Comprehensive Plan was given by Jeff Miller.  P/Z requested a work session prior to the April 15, 2025 meeting to discss further."
+    },
+    {
+      "id": "2025-03-25-letter-from-minnesota-power-regarding-rezoning",
+      "date": "2025-03-25",
+      "milestone": "Letter from Minnesota Power regarding Rezoning",
+      "height": 10,
+      "notes": "Daniel McCourtney (Minnesota Power Manager) writes to the Hermantown City Council in support of the rezoning from Suburban to BLM of the land including and adjacent to the Arrowhead Substation."
+    },
+    {
+      "id": "2025-04-07-city-council-readings",
+      "date": "2025-04-07",
+      "milestone": "City Council Readings",
+      "height": null,
+      "notes": "At the Hermantown City Council Meeting, councilors hear the first readings of the ordinances passed at the Planning and Zoning Commission Meeting from 3/18/25.  *Agenda Item 11A Ordinances 2025-10 An Ordinance Amending Chapter 2, Definitions: proposed new language for \"Communication Services\" to add to Section 200 to the \"City's BLM-Business and Light Manufacturing zoning district Ordinance update in Chapter 5\" to align with expected changes to the Comprehensive Plan."
+    },
+    {
+      "id": "2025-04-07-reading-cont",
+      "date": "2025-04-07",
+      "milestone": "Reading Cont.",
+      "height": null,
+      "notes": "Hermantown City Council are set to hear the first reading of Agenda Item 11B Ordinances 2025-11 An Ordinance Amending Chapter 5, Land Use Regulations: City proposes \"an expansion of the BLM, Business Light Manufacturing zoning district in the SW area of the City... to include other business uses within the BLM zoning district\" to align with an update to the Comprehensive Plan. Adds Communication Services to the zoning district with a special use permit, and includes requirements to noise, hours of operation, etc. Before the first reading of this Item, May Boucher states, \"“We have been advised by administration and staff there needs to be some severe language changes made to this ordinance before it is brought to council and have been asked to return this ordinance to administration for rewording and reinsertion on the agenda at a later date.” Councilors vote unnanimously to send this Item back to administration."
+    },
+    {
+      "id": "2025-04-07-reading-cont",
+      "date": "2025-04-07",
+      "milestone": "Reading Cont.",
+      "height": null,
+      "notes": "Hermantown City Council hears the first reading of Agenda Item 11C Ordinances 2025-12 An Ordinace Amending Title 2 Of The Hermantown City Code By Amending The Official Zoning Map: City proposes to change the zoning district in the SW corner of Hermantown from S-1, Suburban to Business and Light Manufacturing to align with an update to the Comprehensive Plan. Eric Johnson explains, “The City is finalizing our comprehensive plan, and as part of that comprehensive plan process we've looked quite a bit in the south west corner of the city. Basically that Highway 2 corridor, and basically west of Midway Road. We’ve looked at that as far as the presence of rail, and public utilities, as well as basically roadway infrastructure associated with it. And in the comprehensive plan we are identifying this portion of the city be guided towards Light Industrial or Business Light Manufacturing type of use. So we are taking the first step at looking at properties that are essentially  controlled right now by public utilities. There are 14 parcels that are owned by either ALETTE Power or Renfield Land Development, those are associated with the power station that is down in the cities right now. So what we are proposing this evening along with concurrents from those two agencies,is to rezone these properties to S-1 to BLM, this is more suited towards that type of use that they're currently utilizing the property for. Is to be the power transition. So we are looking to make this change for our land use plan.”  Site Data shows notes on \"Existing Comprehensive Plan: Concept Area 4: Develop New Compatible Light Industrial with Adequate Public Facilities, Preserve Wetlands and Rural Uses\" to \"Comprehensive Plan Update: Business Light Manufacturing.\""
+    },
+    {
+      "id": "2025-04-15-planning-zoning-comp-plan",
+      "date": "2025-04-15",
+      "milestone": "Planning/Zoning Comp Plan",
+      "height": 15,
+      "notes": "Planning and Zoning Committee has a public hearing for the City of Hermantown's Comprehesive Plan Update (agenda item 5C).  Eric Johnson (Hermantown) stated that since 2022, the City has been working with Hoisington Koegler Group, Inc (HKGI) to update the 2045 Comprehensive Plan. The last update was in 2001 and is usually updated every 20 years.  Comprehensize Plans provide a framework of how the City could develop in the next 20 years. Zoning was indicated to play a key role in the requirements of the Comprehensive Plan. John Stauber (Commission Member) asked who all was involved in the Comprehensive Plan update.  Johnson explained a steering committee of 10 local resident met 5-6 times starting June 2022 to update the City's Comprehensive Plan. He also mentioned that an interactive map was provided on the City Website that allow residents to provide comments and was also introduced at SummerFest (a local summer festival) At the meeting, no mention was made as to when the last Steering Committee meeting was held.  In a letter to the Hermantown City Council on October 12, 2025, Jonathan Thornton (resident and member of the Steering Committee) reported that the last Steering Committee meeting was held on July 11, 2024 (in timeline above).  He also notes that the Steering Committee was never notified that the report had been completed and was ready to be presented to the City.  Thornton believes the 2045 Comprehensive Plan was revised without the input of the community after July 2024.  He states \"I can assure you that as a member of the 2045 Comprehensive Plan Steering Committee the idea of expanding the Urban Services Boundary [refering to the extension of utilities to the SW corner of Hermantown] was never discussed.\"  Planning and Zoning Commission approved unnanimously to recommend to City Council."
+    },
+    {
+      "id": "2025-04-21-city-council-meeting-resident-question-council-response",
+      "date": "2025-04-21",
+      "milestone": "City Council Meeting, Resident question, Council response",
+      "height": 20,
+      "notes": "Hermantown City Council Work Session occured at 3:00pm, which was open to the public to listen, but no records were kept as to the what was discussed.  At the Hermantown City Council Meeting, Tim Resberg (resident of Hermantown) requests more information on what is going on in the SW corner of Hermantown. He mentions land offers from Mortenson Development Inc, as well as a letter being received by those land owners.  John Mulder responds saying, \"We don't know all the details of that, but we do know that somebody is acquiring property. ... it's not a city action.  It's simply a private land transaction.\" Resberg asks directly, \"Right now, what you're saying is that you don't know nothing about this database.\"  Mulder responds, \"There's nothing that I can share about this, about any of that, at this point in time - other than what is publically known.\"  Resberg continues, \"So, in other words, this Mortenson deal with the Hermantown project, you have no idea what that is?\"  Mulder responds, \"Nothing that we can talk about, no.\"  Resberg asks, \"Why can't you talk about it to tell us residents out there what's going on in our own city?\" Conversation continues for almost 11 minutes with Mulder saying there are possible sales but they have no information to share and Resberg noting that the Council must know something because they [the council] are changing zoning for it. Wayne Boucher (Hermantown Mayor) interrupts Resberg and mentions the length of time and that other business is waiting.  Resberg states, \"I was just asking a question, it was either a yes or a no about the database.\"  Boucher responds, \"We don't have any information about any database thing at this time.\"  On September 18th, 2024, an email from John Mulder was uncovered by a data request stating he has informed the Mayor about a \"data center next to a MN Power substation.\"  Mike Ralph (Hermantown) asks if the Council knows about Mortenson buying up land in the Midway area - “not related to the MP and L thing.” Mayor Boucher responds, “not anything that is public.”"
+    },
+    {
+      "id": "2025-04-21-city-council-meeting-council-response-cont",
+      "date": "2025-04-21",
+      "milestone": "City Council Meeting, Council response cont.",
+      "height": null,
+      "notes": "John Mulder (Hermantown) makes a few interesting comments regarding the resident question above. 1) \"To the extent that MN power is acquiring property, they do have the ability of eminent domain if they need to do that… I can't speak to MN powers plans, a utility does have the ability to do eminent domain, but that is not the city's involvement at all.” (he is referring to the 14 parcels)  2) “We do not have any application for what you refer to as a ‘data base’ at this point in time, the city has talked about the the possibility of extending water to the south west part of the city because we believe as part of the comprehensive plan, it is a prime source for development for industrial uses because of that transportation, the railway and the electricity. We believe those few things will lend itself to development in that area. There is nothing that I can share about this, about any of this at this point in time other than what is publicly known.\"  3) “We are not changing zoning on anybody's homes tonight.”  4) “If a private land owner, if a private company  wants to buy land it is not the city’s business - they may or may not be doing something, we don't know that for sure”"
+    },
+    {
+      "id": "2025-04-21-city-council-definitions",
+      "date": "2025-04-21",
+      "milestone": "City Council, Definitions",
+      "height": null,
+      "notes": "The Hermantown City Council hears a second reading of Agenda Item 11Q 2025-10 An Ordinance Amending Chapter 2, Definitions.\" See timeline entries on 3/18/25 and 4/7/25.  Eric Johnson (Hermantown) states, \"We thought it was a good proactive that we be able to add communication facility to our definitions and then look into where these can occur at a later date.\"  City Council approves unnanimously."
+    },
+    {
+      "id": "2025-04-21-city-council-definitions",
+      "date": "2025-04-21",
+      "milestone": "City Council, Definitions",
+      "height": null,
+      "notes": "Hermantown City Council hears a second reading of Agenda Item 11B 2025-12 An Ordinance Amending Title 2 Of The Hermantown City Code By Amending The Official Zoning Map.\"  See timeline entries on 3/18/25 and 4/7/25. Second reading includes, \"The subject parcels are within the S-1, Suburban zoning district. Although public utility services are a permitted use in the zoning district (existing Allete substation), the use does not align with typical zoning. In order to align with the comprehensive plan update, the City is proposing the rezoning of these 14 parcels to Business and Light Manufacturing which more accurately describes the nature of the parcels.\"  City Council approves unnanimously."
+    },
+    {
+      "id": "2025-04-29-auar-scoping-document",
+      "date": "2025-04-29",
+      "milestone": "AUAR Scoping Document",
+      "height": -3,
+      "notes": "Travis Fristed (Braun) emails \"Environmental Review Stakeholders,\" which includes individuals with emails from \"state.mn.us,\" \"1854treatyauthority.org,\" \"fdlrex.com,\" \"MilleLacsBand.com,\" hermantown, and others.  Email includes a link to the \"Scoping Document (AUAR Large Specific Project) for the proposed Hermantown Industrial development in St. Louis County.\"  Email continues with public comment deadlines and instructions.  AUAR Scoping Document is submitted to the Minnesota Environmental Quality Board (EQB)."
+    },
+    {
+      "id": "2025-05-06-eqb-draft-auar-draft-public-comment-opens",
+      "date": "2025-05-06",
+      "milestone": "EQB Draft AUAR Draft public comment opens",
+      "height": null,
+      "notes": "According to the Minnesota Environmental Quality Board website, Eric Johnson (Hermantown) submitted a \"Draft Order for Review\" to the EQB on 4/29/25. Johnson's letter states, \"As the Responsible Governmental Unit (RGU), the City of Hermantown has determined that an Alternate Urban Areawide Review (AUAR) is required for the proposed Hermantown Industrial Develpment.\"  He continues that \"Enclosed is th Scoping Document for the proposed redevelopment.... Pursuant to Minnesota Rules, part 4410.3610, pubpart 5a(C), the purpose of the comments on a Scoping Document for an AUAR is to suggest additional development scenarios and relevant issues to the analyzed in the review.\" Attached to the request is a copy of the Hermantown Industrial AUAR prepared by Kimley Horm; as proposed by Harmony Group LLC with a contact of Margot Wickman (attorney and partner at Kutak Rock). This request was submitted on 4/29/25 and published on the EQB website and EQB Monitor on 5/6/25.  Public Comment for AUAR Scoping Document opens."
+    },
+    {
+      "id": "2025-05-12-zoning-to-colliers",
+      "date": "2025-05-12",
+      "milestone": "Zoning to Colliers",
+      "height": -7,
+      "notes": "Chad Ronchetti answers question from Andy Heieie (Senior VP of Colliers International, specializing in Advisory and Brokerage Services with the emphasis on Land Development and Redevelopment transactions), \"Would a data center be an allowable use within your Business & Light Manufacturing guiding?\" Chad's answer, \"Communication services are defined within the BLM district. Planning and Zoning will be considering amendments to the zone to define the Special Use Permit process and requirements at upcoming meetings.\""
+    },
+    {
+      "id": "2025-05-20-planning-zoning-zoning-code",
+      "date": "2025-05-20",
+      "milestone": "Planning/Zoning Zoning Code",
+      "height": 7,
+      "notes": "Hermantown Planning and Zoning Committee discussed agenda item 5B (2025-10-ZT) \"Amendment to the City Zoning Code regarding Communication Services Facilities.\"  This Item was discussed at an eariler meeting on 3/18/25 and sent to the City Council on 4/21/25, where the Council sent this Item back to Administration at the request of administration for \"severe language changes.\"  Notable changes were made to the language surrounding location (set backs changed from 200ft to 50ft), operation (allows for 24hr operation), outdoor equipment, and noise (models do not need to include back-up generators). It also adds sections for phased development and \"master plan\" (which would be valid for 10 years). It also removed a maximum lot coverage from the language.  Committee also discussed agenda item 5C (2025-20-ZT) \"Amendments to the City Zoning Code regarding Special Use Permits - Duration of Permit.\"  This attaches the permit to the land, meaning any special use permit issued shall remain in effect \"so long as the conditions imposed in such permit are observed, and such permit shall run with the land.\"  Both agenda items were recommended to the City Council unnanimously, 3 members were absent."
+    },
+    {
+      "id": "2025-05-23-mcea-submits-data-request-to-city",
+      "date": "2025-05-23",
+      "milestone": "MCEA submits data request to City",
+      "height": -25,
+      "notes": "The Minnesota Center for Environmental Advocacy (MCEA) submits a Minnesota Government Data Practices Act request to the City of Hermantown.  MCEA requests \"All records from June 1, 2023 to present related to the proposed industrial development… or any potential data center development in the City of Hermantown.\""
+    },
+    {
+      "id": "2025-06-02-city-council-meeting-land-use",
+      "date": "2025-06-02",
+      "milestone": "City Council Meeting, Land Use",
+      "height": null,
+      "notes": "The Hermantown City Council hears the first reading of Agenda Item 11A 2025-11 An Ordinance Amending Capter 5, Land Use Regluations.\" This Item was originally heard on 4/21/25 but was sent back to Administration at the request of Administration for \"severe language changes.\"  Planning/Zoning heard the changes at the 5/20/25 Commission Meeting and voted to recommend it to the City Council.  See timeline entry for 5/20/25."
+    },
+    {
+      "id": "2025-06-02-city-council-meeting-permit",
+      "date": "2025-06-02",
+      "milestone": "City Council Meeting, Permit",
+      "height": null,
+      "notes": "Hermantown City Council hears the first reading of Agenda Item 11B 2025-13 An Ordinance Amending Chapter 7, Special Use Permits.  Eric Johnson (Hermantown) states, “As staff has been looking at zoning districts and zoning codes associated with our comprehensive plan, we realize that there’s going to be many other opportunities to address specific sections within our zoning code to provide some clarifying language or look at some new zoning districts. So we anticipate you’ll be seeing some of these other types of amendments coming forward in the future, but this is generally starting the process.”"
+    },
+    {
+      "id": "2025-06-05-auar-scoping-doc-public-comment-expires",
+      "date": "2025-06-05",
+      "milestone": "AUAR Scoping Doc public comment expires",
+      "height": -10,
+      "notes": "This is the date that public comment was due for the AUAR Scoping Document prepared by Kimley-Horn that would be presented as Resolution No. 2025-98 and voted on during the Hermantown City Council meeting on June 16, 2025."
+    },
+    {
+      "id": "2025-06-16-city-council-approves-blm-zoning",
+      "date": "2025-06-16",
+      "milestone": "City Council Approves BLM Zoning",
+      "height": null,
+      "notes": "The Hermantown City Council voted unanimously to approve Agenda Item 11A 2025-11 An Ordinance Amending Chapter 5, Land Use Regulations and Agenda Item 11B 2025-13 An Ordinance Amending Chapter 7, Special Use Permit. This amends BLM zoning language and Special Use Permits in regards to \"Communication Services.\"  See timeline entries on 3/18/25, 4/7/25, 4/21/25, and 5/20/25."
+    },
+    {
+      "id": "2025-06-16-city-council-approves-auar-scoping-doc",
+      "date": "2025-06-16",
+      "milestone": "City Council Approves AUAR Scoping Doc",
+      "height": -15,
+      "notes": "The Hermantown City Council unanimously voted to approve Agenda Item 12G 2025-98 Resolution Accepting Large Specific Project Scoping Document and Authorizing The Prepartation Of The Draft Alternative Urban Areawide Review (AUAR) Docment For The Section 31 Hermantown Industrial Project.  The AUAR Scoping Document for a \"large project\" in the SW corner of Hermantown was sent to the Minnesote Environmental Quality Board on 4/29/25 and Public Comment ended on 6/5/25. Two public comments were received regarding the Scoping Document.  First on 5/21/25 from Tim Beaster (SWCD) stated, \"I write to express concern regarding the potential impacts of the proposed development of West Rocky Run Creek, a designated trout stream that flows through the western portion of the AUAR study area.\" Beaster continues to explain concerns regarding the impacts to \"the highest quality coldwater fishery in Hermantown/Duluth/Proctor metropolitn area\" including its vunerablity to land use changes that may increase bacterial polution, change permiability of the soil, and other issues. Second on 6/5/25 by the MCEA, stated \"It is widely assumed that the proposal is a hyperscale data center, and those assumptions are almost certainly accurate. However, the City fails to state whether the facility under review is a data center.\" MCEA continues stating, \"In order for the AUAR scoping document to achieve its purpose under state law, it must describe what the proposal is.\" They also state, \"If the facility is in fact a hyperscale data center, the project should be reviewd by a different Responsible Government Unit (RGU)\" due to its size and expanded regional challenges outside of the City of Hermantown's influence."
+    },
+    {
+      "id": "2025-06-16-city-council-approves-braun-consulting",
+      "date": "2025-06-16",
+      "milestone": "City Council Approves Braun Consulting",
+      "height": null,
+      "notes": "The Hermantown City Council unanimously approves Agenda Item 12H 2025-99 Resolution Approving An Agreement For Consulting Services to Provide Review Of An Alternative Urban Areawhie Review (AUAR) With Braun Intertec Corportation In An Amount Not To Exceed $20, 000.00. Braun Intertec Corportation has been under NDA with Kimley-Horn since December 2024."
+    },
+    {
+      "id": "2025-06-16-city-council-approves-utility-study-and-easement",
+      "date": "2025-06-16",
+      "milestone": "City Council Approves Utility Study and Easement",
+      "height": null,
+      "notes": "The Hermantown City Council voted unanimously to approve Agenda Item 12I Resolution 2025-100 Resolution Authorizing And Directing Mayor And City Clerk To Execute And Deliver A Reimbursement Agreement With Mortenson Development Inc.  This would allow Mortenson Development Inc. pay for the cost of studying public utility extension (i.e. water and sewer) to the SW area of the City of Hermantown. Council approved Agenda Item 12J 2025-101 Reslution Authorizing And Directing Mayor And City Clerk To Execute And Deliver An Agreement For Professional Services For Right Of Way And Easement Acquisition Services With Kimley-Horn And Associates, Inc.  This Item refers to the right-of-way and easements for extended utilities along Morris Thomas Road, Midway Road, and other roads."
+    },
+    {
+      "id": "2025-07-07-city-council-approves-prep-for-auar",
+      "date": "2025-07-07",
+      "milestone": "City Council Approves Prep for AUAR",
+      "height": null,
+      "notes": "A new public comment from the DNR regarding the AUAR Scoping Document was located by John Mulder (Hermantown), which he stated \"it got caught up by spam.\" Since this public comment was found after the approval of the Scoping Document (Resolution 2025-98) on 6/16/25, the City of Hermantown resubmited an updated Resolution 2025-104 for the Scoping Document so that all public comment would be included in the approval. The missed public comment from the DNR stated, \"Please note that depending on the individual components within the project footprint, additional environmental reviewrequirements under Minnesota's Environmental Policy Act (MEPA) could apply.\" They continue, \"The footprint shown in Figure 3 overlaps a mapped public water...Any activity that alters the course, flow, or corss section of this stream requires a Public Waters Work Permit, which is currently missing from Table 4 and should be added. ... Furthermore, eliminating this public water may trigger the need for an Environmental Impact Statement (EIS) under Minnesota Rule 4410.4400, Subpart 20.\" The DNR continues with other concerns, including the statement, \"Please provide more details about the types of light industrial uses planned for the development. For instance, data centers have different environmental impacts, and may require additional environmental review, as compared to manufacturing or warehouse facilities.\" Hermantown City Council approved the updated resolution unanimously."
+    },
+    {
+      "id": "2025-07-15-eqb-auar-final-order",
+      "date": "2025-07-15",
+      "milestone": "EQB AUAR Final Order",
+      "height": null,
+      "notes": "According to the Minnesota EQB website, Eric Johnson (Hermantown) submitted a \"Final Order for Review\" to the EQB on 7/8/25. Johnson's letter refers to the AUAR Scoping Document submitted on 4/29/25 and published on the EQB website on 5/6/25."
+    },
+    {
+      "id": "2025-08-05-eqb-draft-auar",
+      "date": "2025-08-05",
+      "milestone": "EQB Draft AUAR",
+      "height": null,
+      "notes": "According to the Minnesota EQB Monitor publication, in July 2025, the City of Hermantown submitted a Draft AUAR for an area that encompasses an area totaling approximately 403 acres on 28 parcels in the City of Hermantown, St. Louis County, Minnesota. The study area is bounded to the north by Morris Thomas Road, to the east by Midway Road, and to the west by Solway Road. The southern boundary of the study area extends parallel to Saint Louis River Road, approximately 0.25 miles to the north. One development scenario is proposed to be evaluated in the AUAR. The development scenario includes multiple buildings totaling 1.8 million square feet of proposed light industrial development.\"  This opens the Public Comment period for the Draft AUAR.  At this time, the larger public is not aware of Project Loon or any Data Center project despite direct resident questions (see timeline on 4/21/25)."
+    },
+    {
+      "id": "2025-08-12-noise-report",
+      "date": "2025-08-12",
+      "milestone": "Noise Report",
+      "height": null,
+      "notes": "Kimley-Horn submitted a \"Noise Report\" from August 1st. In this report, Margot Wickman from Harmony Group LLC reported a study of potential noise"
+    },
+    {
+      "id": "2025-09-04-draft-auar-public-comment-expires",
+      "date": "2025-09-04",
+      "milestone": "Draft AUAR public comment expires",
+      "height": -15,
+      "notes": "This is the date that public comment was due for the Draft AUAR from Braun. (Resolution 2025-99). The final version of this AUAR resolution would be voted on during the Hermantown City Council meeting on October 6, 2025."
+    },
+    {
+      "id": "2025-09-16-final-auar-public-comment-opens",
+      "date": "2025-09-16",
+      "milestone": "Final AUAR public comment opens",
+      "height": null,
+      "notes": "According to the Minnesota EQB Monitor publication, in September 2025, the City of Hermantown submitted a revised AUAR as the Final AUAR.  This opens the Public Comment period for the Final AUAR, which will expire on 9/30/25."
+    },
+    {
+      "id": "2025-09-16-mcea-data-request-letter",
+      "date": "2025-09-16",
+      "milestone": "MCEA data request letter",
+      "height": -20,
+      "notes": "JT Haines (MCEA Northeastern Minnesota Program Director) and Luke Norquist (MCEA Staff Attorney) email John Mulder (Hermantown City Administrator) stating, \"…the City of Hermantown has so far failed to fulfill its obligations under the Act (Minnesota Government Data Practices Act) and has not delivered any public data responsive to the request for nearly four months.\"  They also note that \"this delay has harmed transparency and public process related to the pending Hermantown Industrial [AUAR]... MCEA submitted its May 23,2025 document request to ensure the public could submit informed comments on the proposal. Yet, the only opportunities for public comment expired on June 5, and September 4, 2025, before the City had provide[d] any responsive documents.\""
+    },
+    {
+      "id": "2025-09-16-mcea-receives-data-request-documents",
+      "date": "2025-09-16",
+      "milestone": "MCEA receives data request documents",
+      "height": -23,
+      "notes": "MCEA received the documents from their data request from the City of Hermantown that they originally submitted on May 23, 2025.  The documents \"confirmed that 'Project Loon' is a proposed data center.\""
+    },
+    {
+      "id": "2025-09-23-public-reveal-of-data-center-project",
+      "date": "2025-09-23",
+      "milestone": "Public Reveal of Data Center Project",
+      "height": 3,
+      "notes": "The Star Tribune report reveals that what the city of Hermantown described as a \"communication services facility\" was actually a data center."
+    },
+    {
+      "id": "2025-09-30-final-auar-public-comment-expires",
+      "date": "2025-09-30",
+      "milestone": "Final AUAR public comment expires",
+      "height": null,
+      "notes": "This is the date that public comment was due for the Final AUAR from Braun."
+    },
+    {
+      "id": "2025-10-06-auar-approved",
+      "date": "2025-10-06",
+      "milestone": "AUAR Approved",
+      "height": 7,
+      "notes": "During the City Council Meeting, a handout is provided to attendees stating, \"A U.S. headquartered Fortune 50 company is evaluating the potential for a data center project in the southwest corner of Hermantown, near Midway Road and Highway 2.\" The AUAR being discussed affects the exact area the handout is describing. Community members request that the Hermantown City Councilors hold off on approving the AUAR until more information can be provided to residents. Councilor LeBlanc states that more information is coming in the future if a project is submited. Joe Wicklund states that \"we are very much at the beginning of this process.\" City Council approves the AUAR unanimously."
+    },
+    {
+      "id": "2025-10-14-st-louis-county-commision-nda-resolution-propsed",
+      "date": "2025-10-14",
+      "milestone": "St Louis County Commision NDA Resolution propsed",
+      "height": -3,
+      "notes": "St Louis County Commissioner Ashley Grimm proposed a resolution (No. 25-500) at the County Board meeting that would ban commissioners from signing NDAs that related to county work. Residents that showed up for an opportunity to speak in support of this resolution filled the room. As WDIO reported on 10/15/25, \"Public comment occured half an hour before the meeting started, as normal. ... people expressed their concerns, with all advocating to vote \"yes\" for the proposal. The board recommended that people wait for comments till the NDA was brought up during the meeting, as it was on the agenda.\"  A Duluth Monitor report on 11/6/25, makes a similar report that Acting Chair Jugovich tells speakers to hold off on comments regarding NDAs while talking about the Data Center project since it is an agenda item.  When the resolution was introduced, it did not receive a second motion. Commissioner Grimm confirmed that a second could be made for discussion purposes only even if commissioners do not plan to vote for it. No one offers a second motion and the motion fails.  Residents are not able to speak to the board regarding NDAs. Meeting is adjourned. This is not recorded in the public Meeting Minutes but can be seen on the St. Louis County youtube page, video \"St. Louis County Board Meeting -10-14-2025\" at the 46:40 mark."
+    },
+    {
+      "id": "2025-10-17-eqb-petition",
+      "date": "2025-10-17",
+      "milestone": "EQB Petition",
+      "height": 10,
+      "notes": "Residents of Hermantown signed a petition and submitted it to the Minnesota Environmental Quality Board. The petition requested an Environmental Assessment Worksheet (EAW) be prepared for the data center project."
+    },
+    {
+      "id": "2025-10-20-zoning-change-approved",
+      "date": "2025-10-20",
+      "milestone": "Zoning change Approved",
+      "height": 12,
+      "notes": "Citizens overflow into the entryway and parking lot as the Hermantown City Hall hits capacity during the City Council Meeting. Council Chambers and the adjacent conference hall fills with members of the public. 51 people spoke in opposition of rezoning the SW corner of Hermantown, as well as against the development of a Data Center.  12 spoke in approval, with a majority having a financial interest in the project (i.e. unions, economic developers).  At the end of 3.5 hours of public input, the Hermantown City Council voted unanimously to approve changing the zoning of the SW corner of Hermantown from Suburban to Business Light Manufactoring. Mayor Boucher noted before the vote that it would be for the rezoning, not for a data center."
+    },
+    {
+      "id": "2025-10-20-eqb-petition-response",
+      "date": "2025-10-20",
+      "milestone": "EQB Petition Response",
+      "height": 17,
+      "notes": "The Minnesota Environmental Quality Board sends a letter to the City of Hermantown in regards to the petition submitted to the EQB by the residents of Hermantown on 10/17/2.  The letter states, \"Please note, a projet may not be started, and a final governmental decision may not be made to grant a permit, approve a project, or begin a project, until a decision has been made for this petition.\"  The EQB determined that the \"City of Hermantown is the appropriate governmental unit to decide the need for an EAW.\"  This EQB decision delayed any project permits or approvals for at least 15 working days."
+    },
+    {
+      "id": "2025-10-21-planning-zoning-permit-applications-pulled",
+      "date": "2025-10-21",
+      "milestone": "Planning/Zoning Permit Applications pulled",
+      "height": 20,
+      "notes": "The Hermantown Planning and Zoning Commission pulled agenda item 5D and 5E. from the meeting agenda.  5D was \"an application for a Special Use Permit by Harmony Group LLC for the development of up to four communication facility buidlings... \"  E was \"an application for a Commecial Industrial Development Permit by Harmony Group LLC for the development of up to four communication facility buildings...\"  WDIO reported that \"The Hermantown planning and zoning commission was scheduled to consider permit applications relating to the development at the proposed site of the data center project on Tuesday October 21st.  That item was pulled from the agenda prior to the meeting.\""
+    },
+    {
+      "id": "2025-11-05-mcea-shdc-files-lawsuit",
+      "date": "2025-11-05",
+      "milestone": "MCEA & SHDC files lawsuit",
+      "height": -10,
+      "notes": "\"Stop the Hermantown Data Center (SHDC) has partnered with the Minnesota Center for Environmental Advocacy (MCEA)to appeal the City of Hermantown's environmental study of 'Project Loon.' The Complaint was filed in St. Louis County District Court on November 5, 2025 and asks the court to half the project, enjoin any permits or other decisions for the proposal, and send the environmental review study back to the City of Hermantown to be redone in accordance with Minnesota Law.\""
+    },
+    {
+      "id": "2026-03-03-google-confirmed",
+      "date": "2026-03-03",
+      "milestone": "Google Confirmed",
+      "height": -10,
+      "notes": "Google public announces that they are the company behind the Hermantown Data Center, Project Loon."
+    },
+    {
+      "id": "2026-03-16-new-auar-scoping-document",
+      "date": "2026-03-16",
+      "milestone": "New AUAR Scoping Document",
+      "height": 5,
+      "notes": "City of Hermantown \"decided to voluntarily update the AUAR\" in response to additional project design details that \"will include a data center and related infrastructure\" by Harmony Group LLC. This was part of the March 23rd City Council Agenda.  MCEA and SHDC, which both have lawsuits with the city regarding this project and the original AUAR, were not aware of this change or how it would affect the lawsuits."
+    }
+  ]
+}

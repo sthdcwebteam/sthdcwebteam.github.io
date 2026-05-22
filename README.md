@@ -1,61 +1,9 @@
-# Data Center Timeline Iframe
+# sthdcwebteam.github.io
 
-Static GitHub Pages package for embedding an interactive timeline in WordPress or Showit.
+Static public-facing embeds for the STHDC website.
 
-## Files
+## Embeds
 
-- `index.html` renders the iframe page.
-- `styles.css` contains the responsive timeline layout.
-- `app.js` loads `data/timeline.json` and handles filters, expansion, and iframe height messaging.
-- `data/timeline.json` is the public data file used by the page.
-- `scripts/export-timeline.mjs` regenerates JSON from the Excel workbook.
-
-## Local Preview
-
-From this folder:
-
-```powershell
-python -m http.server 4173
-```
-
-Then open:
-
-```text
-http://localhost:4173
-```
-
-## Updating the Data
-
-Install the optional converter dependency once:
-
-```powershell
-npm install
-```
-
-Regenerate `data/timeline.json` from the workbook:
-
-```powershell
-npm run export:data -- "C:\path\to\Data Center Timeline updated 040626.xlsx"
-```
-
-The converter reads the `Timeline no graph` sheet and exports only `DATE`, `MILESTONE`, `Height`, and `NOTES`.
-
-## GitHub Pages
-
-1. Put these files in a GitHub Pages repository.
-2. Commit and push.
-3. Enable GitHub Pages for the branch/folder that contains `index.html`.
-4. Use the published URL as the iframe `src`.
-
-Example iframe:
-
-```html
-<iframe
-  src="https://YOUR-GITHUB-USER.github.io/YOUR-REPO/"
-  title="Hermantown Data Center Timeline"
-  style="width: 100%; height: 900px; border: 0;"
-  loading="lazy"
-></iframe>
-```
-
-For a simple Showit embed, start with a fixed height around `900px` to `1200px`. If the page feels cramped, increase the iframe height in Showit.
+- `hermantown_news_carousel.html` is the existing Hermantown news carousel embed.
+- `data-center-timeline/` contains the vertical Data Center Timeline iframe app.
+- `data-center-timeline-horizontal/` contains the horizontal Data Center Timeline iframe app.
