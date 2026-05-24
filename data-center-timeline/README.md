@@ -6,7 +6,7 @@ Static GitHub Pages package for embedding an interactive timeline in WordPress o
 
 - `index.html` renders the iframe page.
 - `styles.css` contains the responsive timeline layout.
-- `app.js` loads `data/timeline.json` and handles filters, expansion, and iframe height messaging.
+- `app.js` loads `data/timeline.json` and handles filters, key-event toggling, expansion, and iframe height messaging.
 - `data/timeline.json` is the public data file used by the page.
 - `scripts/export-timeline.mjs` regenerates JSON from the Excel workbook.
 
@@ -38,7 +38,19 @@ Regenerate `data/timeline.json` from the workbook:
 npm run export:data -- "C:\path\to\Data Center Timeline updated 040626.xlsx"
 ```
 
-The converter reads the `Timeline no graph` sheet and exports only `DATE`, `MILESTONE`, `Height`, and `NOTES`.
+The converter reads the `Timeline no graph` sheet and exports `DATE`, `MILESTONE`, `Height`, `NOTES`, and an optional key-event column.
+
+## Key Events
+
+Key events are marked in `data/timeline.json` with:
+
+```json
+"isKeyEvent": true
+```
+
+Events without `isKeyEvent` or with `false` render as normal events. The app includes a `Key events only` toggle and marks key events with a star badge and subtle card shading.
+
+To preserve key events when regenerating from Excel, add a column named `KEY EVENT`, `Key Event`, or `isKeyEvent`. The converter treats `true`, `yes`, `y`, `1`, `key`, and `starred` as key-event values.
 
 ## GitHub Pages
 

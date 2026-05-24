@@ -36,12 +36,18 @@ if (headerIndex === -1) {
 }
 
 const headers = rows[headerIndex].map((value) => String(value ?? "").trim());
+const normalizedHeaders = headers.map((value) =>
+  value.toUpperCase().replace(/[^A-Z0-9]/g, ""),
+);
 const dateIndex = headers.findIndex((value) => value.toUpperCase() === "DATE");
 const milestoneIndex = headers.findIndex(
   (value) => value.toUpperCase() === "MILESTONE",
 );
 const heightIndex = headers.findIndex((value) => value.toUpperCase() === "HEIGHT");
 const notesIndex = headers.findIndex((value) => value.toUpperCase() === "NOTES");
+const keyEventIndex = normalizedHeaders.findIndex((value) =>
+  ["KEYEVENT", "ISKEYEVENT", "KEY"].includes(value),
+);
 
 function excelDateToIso(value) {
   if (value instanceof Date) return value.toISOString().slice(0, 10);
@@ -65,6 +71,12 @@ function slugify(value) {
     .slice(0, 60);
 }
 
+function parseKeyEvent(value) {
+  return ["true", "yes", "y", "1", "key", "starred"].includes(
+    String(value ?? "").trim().toLowerCase(),
+  );
+}
+
 const events = rows
   .slice(headerIndex + 1)
   .map((row, index) => {
@@ -84,6 +96,7 @@ const events = rows
       date,
       milestone,
       height: Number.isFinite(height) ? height : null,
+      isKeyEvent: keyEventIndex === -1 ? false : parseKeyEvent(row[keyEventIndex]),
       notes,
     };
   })

@@ -6,6 +6,7 @@ const state = {
   search: "",
   year: "all",
   sortOrder: "desc",
+  keyEventsOnly: false,
   expandedIds: new Set(),
   allExpanded: false,
 };
@@ -18,6 +19,7 @@ const elements = {
   searchInput: document.querySelector("#search-input"),
   yearFilter: document.querySelector("#year-filter"),
   sortOrder: document.querySelector("#sort-order"),
+  keyEventsToggle: document.querySelector("#key-events-toggle"),
   expandToggle: document.querySelector("#expand-toggle"),
   emptyState: document.querySelector("#empty-state"),
   list: document.querySelector("#timeline-list"),
@@ -74,12 +76,13 @@ function applyFilters() {
   state.filteredEvents = state.events
     .filter((event) => {
       const matchesYear = state.year === "all" || getYear(event.date) === state.year;
+      const matchesKeyEvent = !state.keyEventsOnly || event.isKeyEvent;
       const matchesSearch =
         !search ||
         normalizeText(event.milestone).includes(search) ||
         normalizeText(event.notes).includes(search);
 
-      return matchesYear && matchesSearch;
+      return matchesYear && matchesKeyEvent && matchesSearch;
     })
     .sort((a, b) => {
       const result = a.date.localeCompare(b.date);
@@ -105,20 +108,58 @@ function createChevron() {
   return svg;
 }
 
+function createStarIcon() {
+  const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+  svg.setAttribute("class", "key-event-star");
+  svg.setAttribute("viewBox", "0 0 24 24");
+  svg.setAttribute("fill", "none");
+  svg.setAttribute("aria-hidden", "true");
+
+  const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+  path.setAttribute(
+    "d",
+    "m12 3.6 2.5 5.2 5.7.8-4.1 4 1 5.6-5.1-2.7-5.1 2.7 1-5.6-4.1-4 5.7-.8L12 3.6Z",
+  );
+  path.setAttribute("stroke", "currentColor");
+  path.setAttribute("stroke-width", "2");
+  path.setAttribute("stroke-linecap", "round");
+  path.setAttribute("stroke-linejoin", "round");
+
+  svg.append(path);
+  return svg;
+}
+
+function createKeyEventBadge() {
+  const badge = document.createElement("span");
+  badge.className = "key-event-badge";
+
+  const text = document.createElement("span");
+  text.textContent = "Key event";
+
+  badge.append(createStarIcon(), text);
+  return badge;
+}
+
 function renderTimeline() {
   const fragment = document.createDocumentFragment();
 
   state.filteredEvents.forEach((event) => {
     const isOpen = state.expandedIds.has(event.id);
+    const isKeyEvent = Boolean(event.isKeyEvent);
     const item = document.createElement("li");
-    item.className = "timeline-item";
+    item.className = `timeline-item${isKeyEvent ? " is-key-event" : ""}`;
 
     const marker = document.createElement("span");
     marker.className = "timeline-marker";
-    marker.setAttribute("aria-hidden", "true");
+    if (isKeyEvent) {
+      marker.setAttribute("aria-label", "Key event");
+      marker.setAttribute("role", "img");
+    } else {
+      marker.setAttribute("aria-hidden", "true");
+    }
 
     const card = document.createElement("article");
-    card.className = `event-card${isOpen ? " is-open" : ""}`;
+    card.className = `event-card${isOpen ? " is-open" : ""}${isKeyEvent ? " is-key-event" : ""}`;
 
     const button = document.createElement("button");
     button.className = "event-button";
@@ -137,6 +178,9 @@ function renderTimeline() {
     const meta = document.createElement("span");
     meta.className = "event-meta";
 
+    if (isKeyEvent) {
+      meta.append(createKeyEventBadge());
+    }
     meta.append(createChevron());
     button.append(date, title, meta);
 
@@ -197,6 +241,13 @@ function bindControls() {
     render();
   });
 
+  elements.keyEventsToggle.addEventListener("change", (event) => {
+    state.keyEventsOnly = event.target.checked;
+    state.expandedIds.clear();
+    state.allExpanded = false;
+    render();
+  });
+
   elements.expandToggle.addEventListener("click", () => {
     state.allExpanded = !state.allExpanded;
     state.expandedIds = state.allExpanded
@@ -222,6 +273,7 @@ async function init() {
       .map((event, index) => ({
         ...event,
         id: event.id || `event-${index + 1}`,
+        isKeyEvent: Boolean(event.isKeyEvent),
       }))
       .sort((a, b) => a.date.localeCompare(b.date));
 
