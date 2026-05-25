@@ -1,4 +1,5 @@
-const DATA_URL = new URL("./data/timeline.json", window.location.href);
+const GOOGLE_SHEET_ID = "1_dWuZcHCB0_MwSL5PHTtXMPZgyGWTClt_cw_mCSC0ac";
+const GOOGLE_SHEET_GID = "0";
 
 const state = {
   events: [],
@@ -40,6 +41,156 @@ function getYear(dateString) {
 
 function normalizeText(value) {
   return String(value ?? "").toLowerCase();
+}
+
+function normalizeHeader(value) {
+  return String(value ?? "")
+    .trim()
+    .toLowerCase()
+    .replace(/[^a-z0-9]/g, "");
+}
+
+function parseBoolean(value) {
+  if (typeof value === "boolean") return value;
+
+  return ["true", "yes", "y", "1", "key", "starred"].includes(
+    String(value ?? "").trim().toLowerCase(),
+  );
+}
+
+function padNumber(value) {
+  return String(value).padStart(2, "0");
+}
+
+function parseSheetDate(value, formattedValue) {
+  const formattedText = String(formattedValue ?? "").trim();
+  if (/^\d{4}-\d{2}-\d{2}$/.test(formattedText)) return formattedText;
+
+  const valueText = String(value ?? "").trim();
+  if (/^\d{4}-\d{2}-\d{2}$/.test(valueText)) return valueText;
+
+  const googleDate = valueText.match(/^Date\((\d{4}),(\d{1,2}),(\d{1,2})\)$/);
+  if (googleDate) {
+    const [, year, zeroBasedMonth, day] = googleDate;
+    return `${year}-${padNumber(Number(zeroBasedMonth) + 1)}-${padNumber(day)}`;
+  }
+
+  const parsed = new Date(valueText || formattedText);
+  if (!Number.isNaN(parsed.getTime())) return parsed.toISOString().slice(0, 10);
+
+  return "";
+}
+
+function slugify(value) {
+  return String(value)
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "")
+    .slice(0, 60);
+}
+
+function getSheetUrl(callbackName) {
+  const url = new URL(
+    `https://docs.google.com/spreadsheets/d/${GOOGLE_SHEET_ID}/gviz/tq`,
+  );
+
+  url.searchParams.set("gid", GOOGLE_SHEET_GID);
+  url.searchParams.set("headers", "1");
+  url.searchParams.set("tqx", `out:json;responseHandler:${callbackName}`);
+
+  return url.toString();
+}
+
+function loadSheetResponse() {
+  return new Promise((resolve, reject) => {
+    const callbackName = `timelineSheetCallback_${Date.now()}_${Math.random()
+      .toString(36)
+      .slice(2)}`;
+    const script = document.createElement("script");
+    const timeout = window.setTimeout(() => {
+      cleanup();
+      reject(new Error("Google Sheet data request timed out."));
+    }, 15000);
+
+    function cleanup() {
+      window.clearTimeout(timeout);
+      delete window[callbackName];
+      script.remove();
+    }
+
+    window[callbackName] = (response) => {
+      cleanup();
+
+      if (response.status !== "ok") {
+        reject(new Error(response.errors?.[0]?.detailed_message || "Google Sheet data could not be loaded."));
+        return;
+      }
+
+      resolve(response);
+    };
+
+    script.onerror = () => {
+      cleanup();
+      reject(new Error("Google Sheet data could not be loaded."));
+    };
+
+    script.async = true;
+    script.src = getSheetUrl(callbackName);
+    document.head.append(script);
+  });
+}
+
+function findColumn(columns, aliases) {
+  const normalizedAliases = new Set(aliases);
+
+  return columns.findIndex((column) => {
+    const label = normalizeHeader(column.label);
+    const id = normalizeHeader(column.id);
+    return normalizedAliases.has(label) || normalizedAliases.has(id);
+  });
+}
+
+function getCell(row, index) {
+  return row.c?.[index] || {};
+}
+
+function getCellText(cell) {
+  return String(cell.v ?? cell.f ?? "").trim();
+}
+
+function parseSheetEvents(response) {
+  const columns = response.table?.cols || [];
+  const rows = response.table?.rows || [];
+  const dateIndex = findColumn(columns, ["date"]);
+  const milestoneIndex = findColumn(columns, ["milestone"]);
+  const notesIndex = findColumn(columns, ["notes", "note"]);
+  const keyEventIndex = findColumn(columns, ["iskeyevent", "keyevent", "key"]);
+
+  if (dateIndex === -1 || milestoneIndex === -1) {
+    throw new Error("Google Sheet must include date and milestone columns.");
+  }
+
+  return rows
+    .map((row, index) => {
+      const dateCell = getCell(row, dateIndex);
+      const milestone = getCellText(getCell(row, milestoneIndex));
+      const notes = notesIndex === -1 ? "" : getCellText(getCell(row, notesIndex));
+      const date = parseSheetDate(dateCell.v, dateCell.f);
+
+      if (!date || !milestone) return null;
+
+      return {
+        id: `${date}-${slugify(milestone) || `event-${index + 1}`}`,
+        date,
+        milestone,
+        notes,
+        isKeyEvent:
+          keyEventIndex !== -1 &&
+          parseBoolean(getCell(row, keyEventIndex).v ?? getCell(row, keyEventIndex).f),
+      };
+    })
+    .filter(Boolean)
+    .sort((a, b) => a.date.localeCompare(b.date));
 }
 
 function emitHeight() {
@@ -263,13 +414,8 @@ async function init() {
   bindControls();
 
   try {
-    const response = await fetch(DATA_URL, { cache: "no-store" });
-    if (!response.ok) {
-      throw new Error(`Could not load ${DATA_URL.pathname}`);
-    }
-
-    const payload = await response.json();
-    state.events = payload.events
+    const response = await loadSheetResponse();
+    state.events = parseSheetEvents(response)
       .map((event, index) => ({
         ...event,
         id: event.id || `event-${index + 1}`,
@@ -282,7 +428,7 @@ async function init() {
     render();
   } catch (error) {
     elements.summary.textContent =
-      "The timeline data could not be loaded. Confirm data/timeline.json is published beside this page.";
+      "The timeline data could not be loaded. Confirm the Google Sheet is shared publicly and includes date and milestone columns.";
     elements.emptyState.hidden = false;
     elements.emptyState.textContent = error.message;
     emitHeight();
