@@ -428,7 +428,7 @@ async function init() {
     render();
   } catch (error) {
     elements.summary.textContent =
-      "The timeline data could not be loaded. Confirm the Google Sheet is shared publicly and includes date and milestone columns.";
+      "The timeline data could not be loaded. Please try again later. If the issue persists, contact the site admin.";
     elements.emptyState.hidden = false;
     elements.emptyState.textContent = error.message;
     emitHeight();
