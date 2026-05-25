@@ -6,7 +6,7 @@ const state = {
   filteredEvents: [],
   search: "",
   year: "all",
-  sortOrder: "desc",
+  sortOrder: "asc",
   keyEventsOnly: false,
   expandedIds: new Set(),
   allExpanded: false,
