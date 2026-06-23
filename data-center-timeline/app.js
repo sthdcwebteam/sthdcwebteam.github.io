@@ -13,7 +13,7 @@ const state = {
 };
 
 const INTRO_TEXT =
-  "This timeline is a community-led best effort at tracking the changes and developments of the Hermantown Data Cetner project.";
+  "This timeline is a community-led best effort at tracking the changes and developments of the Hermantown Data Center project.";
 
 const elements = {
   summary: document.querySelector("#timeline-summary"),
