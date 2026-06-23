@@ -165,6 +165,7 @@ function parseSheetEvents(response) {
   const milestoneIndex = findColumn(columns, ["milestone"]);
   const notesIndex = findColumn(columns, ["notes", "note"]);
   const keyEventIndex = findColumn(columns, ["iskeyevent", "keyevent", "key"]);
+  const enabledIndex = findColumn(columns, ["isenabled", "enabled"]);
 
   if (dateIndex === -1 || milestoneIndex === -1) {
     throw new Error("Google Sheet must include date and milestone columns.");
@@ -176,8 +177,12 @@ function parseSheetEvents(response) {
       const milestone = getCellText(getCell(row, milestoneIndex));
       const notes = notesIndex === -1 ? "" : getCellText(getCell(row, notesIndex));
       const date = parseSheetDate(dateCell.v, dateCell.f);
+      const isEnabled =
+        enabledIndex === -1
+          ? true
+          : parseBoolean(getCell(row, enabledIndex).v ?? getCell(row, enabledIndex).f);
 
-      if (!date || !milestone) return null;
+      if (!date || !milestone || !isEnabled) return null;
 
       return {
         id: `${date}-${slugify(milestone) || `event-${index + 1}`}`,
