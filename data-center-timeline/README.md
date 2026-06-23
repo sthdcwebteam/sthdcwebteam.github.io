@@ -30,6 +30,7 @@ Edit the public Google Sheet used by the app:
 - `milestone`
 - `notes`
 - `isKeyEvent`
+- `isEnabled`
 
 The app reads sheet `gid=0` from:
 
@@ -38,6 +39,10 @@ https://docs.google.com/spreadsheets/d/1_dWuZcHCB0_MwSL5PHTtXMPZgyGWTClt_cw_mCSC
 ```
 
 The sheet must be shared so anonymous visitors can read it.
+
+## Visibility
+
+Only rows with `TRUE` in the `isEnabled` column are shown on the timeline. Rows with `FALSE` or a blank value are hidden entirely (they do not appear in search, counts, or the year filter). If the `isEnabled` column is missing from the sheet, all rows are shown.
 
 ## Key Events
 
