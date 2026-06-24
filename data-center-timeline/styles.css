@@ -34,11 +34,7 @@ html {
 body {
   margin: 0;
   min-width: 320px;
-  background:
-    linear-gradient(90deg, rgba(91, 58, 37, 0.06) 1px, transparent 1px),
-    linear-gradient(180deg, rgba(179, 33, 24, 0.045) 1px, transparent 1px),
-    transparent;
-  background-size: 38px 38px;
+  background: transparent;
   color: var(--ink);
 }
 
@@ -124,9 +120,8 @@ h1 {
   align-items: end;
   margin: 0 -6px;
   padding: 14px 6px;
-  background: rgba(247, 241, 231, 0.94);
+  background: transparent;
   border-bottom: 2px solid rgba(23, 18, 15, 0.86);
-  backdrop-filter: blur(10px);
 }
 
 .search-control,
