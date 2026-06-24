@@ -28,7 +28,7 @@ body {
 }
 
 html {
-  background: var(--bg);
+  background: transparent;
 }
 
 body {
@@ -37,7 +37,7 @@ body {
   background:
     linear-gradient(90deg, rgba(91, 58, 37, 0.06) 1px, transparent 1px),
     linear-gradient(180deg, rgba(179, 33, 24, 0.045) 1px, transparent 1px),
-    var(--bg);
+    transparent;
   background-size: 38px 38px;
   color: var(--ink);
 }
@@ -242,7 +242,7 @@ select:focus,
   left: -23px;
   width: 17px;
   height: 17px;
-  border: 3px solid var(--bg);
+  border: 3px solid transparent;
   border-radius: 50%;
   background: var(--red);
   box-shadow: 0 0 0 1px rgba(179, 33, 24, 0.35);
